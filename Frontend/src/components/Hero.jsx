@@ -69,7 +69,7 @@ export default function Hero() {
       <div className="relative mx-auto flex min-h-[72vh] max-w-7xl flex-col items-center justify-center px-4 text-center text-white">
         <div className="relative z-10 space-y-8 py-16 sm:py-14">
           <div className="inline-flex items-center rounded-full border border-fuchsia-400/20 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.35em] text-fuchsia-200 backdrop-blur-sm">
-            ✦ AI POWERED IMAGE CAPTION GENERATOR
+            AI POWERED IMAGE CAPTION GENERATOR
           </div>
           <ParticleText text="AI Image Caption Generator" />
           <div className="mx-auto max-w-2xl text-slate-300">
