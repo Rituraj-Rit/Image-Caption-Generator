@@ -1,0 +1,21 @@
+.blur-text span {
+  opacity: 0;
+  filter: blur(24px);
+  transform: translateY(12px);
+  display: inline-block;
+  animation: blurText 0.75s forwards ease-out;
+}
+
+.blur-text-visible {
+  opacity: 1 !important;
+  filter: blur(0px) !important;
+  transform: translateY(0px) !important;
+}
+
+@keyframes blurText {
+  to {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+  }
+}
